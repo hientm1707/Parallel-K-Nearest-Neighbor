@@ -95,7 +95,7 @@ def mod_data(df):
 	df.replace('notckd', 2, inplace = True)
 
 def main():
-	df = pd.read_csv("chronic_kidney_disease.csv")
+	df = pd.read_csv("water_potability.csv")
 	mod_data(df)
 	dataset = df.astype(float).values.tolist()
 	
